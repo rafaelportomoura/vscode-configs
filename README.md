@@ -10,6 +10,7 @@ Settings Json
   "workbench.colorTheme": "Dracula",
   "workbench.startupEditor": "none",
   "workbench.productIconTheme": "fluent-icons",
+  "workbench.editor.labelFormat": "default",
 
   "git.confirmSync": false,
   "git.autofetch": true,
@@ -115,6 +116,14 @@ Settings Json
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
 
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
   "typescript.tsserver.log": "verbose",
 
   "cSpell.enableFiletypes": [
