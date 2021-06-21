@@ -32,6 +32,9 @@ Settings Json
     "source.fixAll.eslint": true
   },
 
+  "splitHTMLAttributes.closingBracketOnNewLine": true,
+
+  "window.menuBarVisibility": "compact",
   "window.zoomLevel": 1,
 
   "files.associations": {
