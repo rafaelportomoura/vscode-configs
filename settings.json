@@ -37,7 +37,17 @@
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
     ".prettierrc": "json",
-    "*.tsx": "typescriptreact"
+    "*.tsx": "typescriptreact",
+    ".env**": "pug"
+  },
+
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": false
   },
 
   "material-icon-theme.activeIconPack": "nest",
